@@ -7,17 +7,25 @@
 // custom settings, run `zed: open default settings` from the
 // command palette
 {
+  "assistant": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4o"
+    },
+    "version": "2"
+  },
   "show_inline_completions": false,
   "telemetry": {
     "metrics": false
   },
   "vim_mode": true,
+  "vim": { "use_system_clipboard": "never" },
   "base_keymap": "VSCode",
   "ui_font_size": 16,
   "buffer_font_size": 17,
   "theme": {
     "mode": "dark",
     "light": "One Light",
-    "dark": "Ayu Dark"
+    "dark": "Summercamp"
   }
 }
