@@ -15,11 +15,11 @@
   | **Screenshot Tool**   | [Grim](https://github.com/emersion/grim) |
   | **File Manager**      | [Yazi](https://github.com/sxyazi/yazi) |
 | **Web Browser**         | Firefox       |
-| **Wallpaper Manager**   | [Walls](https://github.com/Hqnnqh/walls) |
+| **Wallpaper Manager**   | [Walls](https://github.com/hannahfluch/walls) |
 | **Wallpaper Daemon**    | [Swww](https://github.com/LGFae/swww) |
 | **Notification Daemon** | [Dunst](https://github.com/dunst-project/dunst) |
 | **Clipboard Manager**   | [Clipman](https://github.com/chmouel/clipman) |
-| **Coding Assistant**    | [Buddy](https://github.com/Hqnnqh/buddy) |
+| **Coding Assistant**    | [Homie](https://github.com/hannahfluch/homie) |
 
 ---
 
