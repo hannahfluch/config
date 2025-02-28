@@ -8,6 +8,6 @@ y = 1025
 debug = true
 signal_frequency = 1
 automatic_reload = false
-sprites_path = "$HOME/.config/buddy/sprites/current_sprites/"
+sprites_path = "$HOME/.config/homie/sprites/current_sprites/"
 fps = 10
 width = 100
