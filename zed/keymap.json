@@ -2,16 +2,13 @@
   {
     "context": "Editor && !menu",
     "bindings": {
-      "ctrl-shift-r": "editor::Format",
-
-      // overwrite some vim defaults
-      "ctrl-o": "workspace::Open", // vim default: go back
-      "ctrl-z": "vim::Undo",
-      "ctrl-c": "editor::Copy", // vim default: return to normal mode
-      "ctrl-x": "editor::Cut", // vim default: decrement
-      "ctrl-v": "editor::Paste", // vim default: visual block mode
-      "ctrl-f": "buffer_search::Deploy", // vim default: page down
-      "ctrl-a": "editor::SelectAll" // vim default: increment
+      "ctrl-shift-r": "editor::Format"
+    }
+  },
+  {
+    "context": "ProjectPanel && not_editing",
+    "bindings": {
+      "ctrl-t": "workspace::ToggleLeftDock"
     }
   }
 ]
