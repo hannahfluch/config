@@ -1,7 +1,7 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: "Source Code Pro", "Material Design Icons Desktop, Regular",
+    font-family: "CommitMono Nerd Font", "Source Code Pro", "Material Design Icons Desktop, Regular",
         "Iosevka Nerd Font Mono";
     font-size: 14px;
     min-height: 0;
@@ -14,56 +14,44 @@ window#waybar {
 
 #tags,
 #workspaces {
-    background-color: #f0f0f0; /* Softer light gray */
+    background-color: #f0f0f0; 
     margin: 5px;
-    margin-left: 10px;
-    margin-bottom: 0;
     border-radius: 20px;
-    padding-right: 5px;
 }
 
 #tags button,
 #workspaces button {
-    padding: 5px 10px;
     color: #1a1a1a;
     transition:
         background-color 0.3s ease,
         color 0.3s ease;
-    border-radius: 20px;
 }
 
 #tags button.focused,
 #workspaces button.focused {
     color: #ffffff;
     background-color: #3388ff;
-    border-radius: 20px;
 }
 
 #tags button:hover,
 #workspaces button:hover {
-    background-color: #d9e6f2; /* Soft hover color */
+    background-color: #d9e6f2;
     color: #1a1a1a;
-    border-radius: 20px;
 }
 
 #tray,
 #clock,
 #battery,
-#cpu {
-    background-color: #f0f0f0; /* Consistent light gray */
+#cpu, #dunst-custom {
+    background-color: #f0f0f0;
     padding: 0px 10px;
     margin: 5px 0;
     margin-bottom: 0;
     border-radius: 20px;
 }
 
-#cpu {
+#cpu, #clock, #dunst-custom {
     color: #006bb3;
-    padding: 0 10px;
-}
-
-#clock {
-    color: #005999;
     padding: 0 10px;
 }
 
@@ -93,7 +81,7 @@ window#waybar {
 }
 
 #network {
-    background-color: #f0f0f0; /* Softer gray */
+    background-color: #f0f0f0; 
     margin: 5px 0;
     margin-bottom: 0;
     color: #ff5c5c;
@@ -102,7 +90,7 @@ window#waybar {
 }
 
 #network-icon {
-    background-color: #f0f0f0; /* Softer gray */
+    background-color: #f0f0f0;
     color: #ff5c5c;
     padding: 0px 10px;
     margin: 5px 0;
@@ -112,7 +100,7 @@ window#waybar {
 }
 
 #pulseaudio {
-    background-color: #f0f0f0; /* Softer gray */
+    background-color: #f0f0f0; 
     padding: 0 10px;
     margin: 5px 0;
     margin-bottom: 0;
@@ -122,7 +110,7 @@ window#waybar {
 
 #pulseaudio.pulse2 {
     font-size: 18px;
-    background-color: #f0f0f0; /* Softer gray */
+    background-color: #f0f0f0;
     margin: 5px 0;
     margin-bottom: 0;
     color: #ffb74d;

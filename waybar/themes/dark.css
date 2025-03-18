@@ -48,7 +48,9 @@ window#waybar {
 #tray,
 #clock,
 #battery,
-#cpu {
+#cpu,
+#custom-dunst
+{
     background-color: #000000;
     padding: 0px 10px;
     margin: 5px 0;
@@ -56,12 +58,7 @@ window#waybar {
     border-radius: 20px;
 }
 
-#cpu {
-    color: #7aa2f7;
-    padding: 0 10px;
-}
-
-#clock {
+#cpu, #custom-dunst, #clock {
     color: #7aa2f7;
     padding: 0 10px;
 }

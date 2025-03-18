@@ -5,7 +5,7 @@
 
 	"modules-left": ["river/tags", "hyprland/workspaces"],
     "modules-center": ["river/window", "hyprland/window"],
-    "modules-right": ["custom/themer", "cpu", "clock", "network", "backlight", "pulseaudio", "battery"],
+    "modules-right": ["custom/themer", "custom/dunst", "cpu", "clock", "network", "backlight", "pulseaudio", "battery"],
 
     // Modules configuration
 
@@ -103,5 +103,13 @@
     "interval": 10,
     "format": "HEY",
     "on-click": "~/config/scripts/update_slime.sh"
+  },
+  "custom/dunst": {
+    "exec": "dunstctl is-paused | sed 's/true/󰂛/; s/false//'",
+	"on-click": "dunstctl set-paused toggle",
+	"format": "{}",
+	"interval": 1,
+	"tooltip": true,
+	"tooltip-format": "Notifications"
   }
 }
