@@ -20,7 +20,7 @@
 | **Notification Daemon** | [Dunst](https://github.com/dunst-project/dunst) |
 | **Clipboard Manager**   | [Clipman](https://github.com/chmouel/clipman) |
 | **Coding Assistant**    | [Homie](https://github.com/hannahfluch/homie) |
-
+| **Cursor Theme**        | [Catppuccin Mocha - Dark](https://github.com/catppuccin/cursors) | 
 ---
 
 ## Backup Configuration
