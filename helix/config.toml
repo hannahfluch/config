@@ -1,2 +1,3 @@
+theme = "curzon_transparent"
 [editor.lsp]
 display-inlay-hints = true
