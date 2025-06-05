@@ -10,7 +10,7 @@
   | **Shell**             | [Fish](https://github.com/fish-shell/fish-shell) |
   | **Shell Prompt**      | [Tide](https://github.com/IlanCosman/tide) |
   | **Code Editor**       | [Zed](https://github.com/zed-industries/zed) |
-  | **Terminal Editor**   | [Nvim](https://github.com/neovim/neovim) |
+  | **Terminal Editor**   | [Helix](https://github.com/helix-editor/helix) |
   | **Screen Lock**       | [Swaylock](https://github.com/swaywm/swaylock) |
   | **Screenshot Tool**   | [Grim](https://github.com/emersion/grim) |
   | **File Manager**      | [Yazi](https://github.com/sxyazi/yazi) |
